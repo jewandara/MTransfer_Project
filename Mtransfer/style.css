@@ -1,0 +1,9 @@
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('models/css/checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+body{
+	margin-top:555px;}

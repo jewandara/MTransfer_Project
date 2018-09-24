@@ -1,0 +1,130 @@
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+.user_icon{
+	border:#1AB790 solid 40px;
+	transition:all 0.6s ease;
+	}
+.user_icon:hover{
+	border:#1AB790 solid 1px;
+	transition:all 0.4s ease;
+	}
+.user_icon_register{
+	transition:all 0.6s ease;
+	}
+	
+.user_icon_register:hover{
+	background:#B1C7B3;
+	transition:all 1s ease;
+	}
+	
+
+table{ width:100%; }
+
+table tr th {
+		padding:10px;
+		border:#666 solid 1px;
+		background:#D7DCD3;		
+	}
+table tr td {
+		border:#666 solid 1px;
+		padding:12px;
+		text-decoration:none;
+		vertical-align:text-top;
+	}
+.table_items{
+	overflow: hidden;
+	display:block;
+	max-width: 200px;
+	max-height: 38px;
+}
+.table_icons{
+	overflow: hidden;
+	display:block;
+	width: 65px;
+}
+@media screen and (max-width: 750px) {
+ /* .table_items {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  } 
+  */
+ table#hospitalData th:nth-child(4) { display: none; }
+ table#hospitalData td:nth-child(4) { display: none }
+}
+@media screen and (max-width: 450px) {
+ table#hospitalData th:nth-child(3) { display: none; }
+ table#hospitalData td:nth-child(3) { display: none }
+}
+
+.form-control_select{	
+		padding:7px;
+		width:100%;
+	}
+.form-control_option{	
+		padding:4px;
+		width:100%;
+	}
+.form-control_text{	
+		padding:4px;
+		width:100%;
+}
+
+
+.top_menu_items{
+	display: block;
+	width: 110%;
+    margin: 0;
+    padding: 0;
+	}
+	
+.form-control_menu{
+	width: 100px;
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+	background:#B7987B;
+	color:#01497E;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+	
+.form-control_menu:hover{
+		background:#036;
+		color:#B7CAC6;
+		text-decoration:none;
+	}
+.form-control_menu_select{
+		width: 100px;		
+		display:inline-block;	
+		margin:6px;
+		padding:8px;;
+		background:#C5ABB6;
+		color:#333;
+		text-decoration:none;
+	}
+	
+	
+#error {
+	background:#CD7272;
+	display:block;
+	padding:10px;
+	border-radius: 5px 5px 5px 5px;
+	}
+#success{
+	background:#5C9DBC;
+	display:block;
+	padding:10px;
+	border-radius: 5px 5px 5px 5px;
+	}
